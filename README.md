@@ -2,4 +2,4 @@
 Web application develop by .NET Service.
 
 ##### Feature:
-- Managing employee records.
+- To manage employee records.
