@@ -1,0 +1,12 @@
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csprojAssemblyReference.cache
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Users\Anjana RS\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb

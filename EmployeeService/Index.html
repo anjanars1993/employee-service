@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ullist = $('#ullist');
+            $('#btn').click(function () {
+                var username = $('#usernametxt').val();
+                var password = $('#passwordtxt').val();
+                
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/Employees/',
+                    dataType: 'json',
+                    headers:
+                    {
+                        'Authorization': 'Basic ' + btoa(username + ':' + password)
+                    },
+                    
+                    success: function (data) {
+                        ullist.empty();
+                        $.each(data, function (index,val) {
+                            var fulname = val.FirstName + ' ' + val.LastName
+                            ullist.append('<li>'+fulname+'('+val.Gender+')'+'</li>')
+
+                        });
+                    },
+                    complete: function (jqXHR) {
+                        if (jqXHR.status == '401') {
+                            ullist.empty();
+                            ullist.append('<li style="color:red">' + jqXHR.status + ':' + jqXHR.statusText + '</li>')
+                        }
+                        
+                    }
+                });
+                
+            });
+            $('#clearbtn').click(function () {
+                ullist.empty();
+            });
+        });
+    </script>
+    <title></title>
+</head>
+<body>
+    Username: <input id="usernametxt" type="text" />
+    Password: <input id="passwordtxt" type="password" />
+    <input id="btn" type="button" value="authenticate and get list" />
+    <input id="clearbtn" type="button" value="clearall" />
+    <ul id="ullist"></ul>
+</body>
+</html>
